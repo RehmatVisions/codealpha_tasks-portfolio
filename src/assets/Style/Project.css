@@ -1,0 +1,107 @@
+/*   
+.full h1{
+    margin-top: 50px;
+    font-size: 45px;
+    text-decoration: underline;
+    color: #6C63FF;
+    text-align: center;
+}
+.maincard{
+     
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    padding: 10px;
+   
+}
+marquee{
+    background-color: #6C63FF;
+     
+} */
+
+ /* Global reset and fix overflow */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+.full{
+  margin-top: 100px;
+  
+}
+ 
+  body {
+    overflow-x: hidden;
+    font-family: sans-serif;
+  }
+  
+  .full h1 {
+    margin-top: 3vh;
+    font-size: 4vw; /* responsive font size */
+    text-decoration: underline;
+    color: #6C63FF;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 0 10px; /* Add some breathing space */
+  }
+  
+  .maincard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vw auto;
+    padding: 2vw;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  /* Make marquee responsive */
+  marquee {
+    background-color: #6C63FF;
+    color: white;
+    font-size: 4vw;
+    padding: 10px 0;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+  }
+ 
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .full h1 {
+      font-size: 8vw;
+      margin-top: 200px;
+    }
+ 
+    marquee {
+      font-size: 5vw;
+    }
+  
+    .maincard {
+      margin: 4vw auto;
+      padding: 4vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .full h1 {
+      font-size: 9vw;
+    }
+    
+  .full{
+    margin-top: 100px;
+  }
+    marquee {
+      font-size: 6vw;
+    }
+  
+    .maincard {
+      margin: 3vw auto;
+      padding: 3vw;
+    }
+  }
+  

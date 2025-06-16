@@ -1,0 +1,143 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* Hero Section */
+.hero-sec {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    padding: 60px 10%;
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: white;
+    flex-wrap: wrap;
+}
+
+/* Left Section */
+.left-hero {
+    width: 50%;
+}
+
+.hero-cont h3 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.hero-cont h1 {
+    font-size: 42px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.browse-btn {
+    padding: 12px 20px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.browse-btn:hover {
+    background: #e68900;
+}
+
+/* Right Section */
+.right-hero {
+    width: 45%;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.right-hero h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.inputs input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.right-butt {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.right-butt:hover {
+    background: #0056b3;
+}
+
+/* Popular Keywords */
+.popular {
+    margin-top: 20px;
+}
+
+.popular h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.keyword-btn {
+    padding: 8px 14px;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.keyword-btn:hover {
+    background: #bbb;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hero-sec {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px;
+    }
+
+    .left-hero, .right-hero {
+        width: 100%;
+    }
+
+    .inputs {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,105 @@
+ 
+.card {
+    height: 200px;
+    width: 200px;
+    background-color: #1E1E1E;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  
+  }
+  
+ 
+  .card:hover {
+    transform: translateY(-10px); 
+ 
+    box-shadow: 0 5px 15px rgb(108, 99, 255);
+  }
+  
+ 
+  .card-icon {
+    font-size: 50px;
+    color: #6C63FF; 
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Title style */
+  .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    
+    text-align: center;
+  }
+  
+ 
+  .card-description {
+    font-size: 13px;
+    color: #9e9797;
+    text-align: center;
+  }
+  
+
+ 
+  .dark-mode {
+      background-color: #000;
+      color: #fff;
+    }
+  
+    /* Default styles (light mode) */
+  body {
+      background-color: #fff;
+      color: #000;
+    }
+    
+    .card {
+      background-color: #fff;  
+      color: #000; 
+    }
+    
+    .links a {
+      color: black;
+    }
+    
+    .ham {
+      color: black; 
+    }
+    
+    /* Dark Mode */
+    .dark-mode {
+      background-color: #000;
+      color: #fff;   
+    }
+    
+    .dark-mode .card{
+      background-color: #1E1E1E;  
+    }
+    
+    .dark-mode .links a {
+      color: #fff;  
+    }
+    
+    .dark-mode .ham {
+      color: #fff;   
+    }
+  
+  .dark-mode .card h2{
+    color: white;
+  }
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    

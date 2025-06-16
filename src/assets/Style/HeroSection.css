@@ -1,0 +1,152 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.left {
+    width: 600px;
+    min-width: 300px;
+    height: auto;
+    margin-top: 40px;
+    margin-right: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left h1 {
+    font-weight: 700;
+    font-size: clamp(28px, 4vw, 45px);
+    line-height: 1.2;
+}
+
+#spantwo {
+    color: #6C63FF;
+    font-size: clamp(30px, 4.5vw, 47px);
+}
+
+.left p {
+    color: rgb(120, 119, 119);
+    font-weight: 450;
+    font-size: clamp(14px, 2vw, 16px);
+}
+
+.right {
+    transition: transform 0.3s ease-in;
+    margin-top: 30px;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.right img {
+    border: 5px solid #6C63FF;
+    border-radius: 150px 2px;
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.right:hover {
+    transform: scaleY(1) rotate(4deg);
+}
+
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.btns button {
+    padding: 10px 20px;
+    border: 2px solid #6C63FF;
+    color: white;
+    background-color: #6C63FF;
+    border-radius: 150px 2px;
+    font-size: clamp(14px, 2vw, 16px);
+    font-weight: 500;
+    transition: all 0.3s ease-in;
+    flex-grow: 1;
+    min-width: 120px;
+}
+
+/* .btns button:hover {
+    transform: translateY(-10px);
+} */
+ #hire:hover{
+    transform: translateY(-10px);
+ }
+
+#download {
+    background-color: whitesmoke;
+    color: #6C63FF;
+    border: 2px solid #6C63FF;
+    transition: all 0.2s ease-in;
+}
+
+#download:hover {
+    color: white;
+    background-color: #6C63FF;
+}
+.container{
+    margin-top: 100px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        margin-top: 90px;
+        /* height: 79vh; */
+        /* margin-bottom: 30px; */
+        /* justify-content: center; */
+    }
+    .left {
+        margin-right: 0;
+        margin: 0px 0;
+        text-align: center;
+    }
+    .btns {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .left {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .right {
+        margin-top: 0px;
+    }
+    .right img {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    .left h1, #spantwo {
+        font-size: 28px;
+    }
+    .btns button {
+        width: 100%;
+    }
+   .right img{
+    /* margin-top: 80px; */
+    max-width: 260px;
+    margin-top: 10px;
+   }
+  
+    .container{
+          height: 77vh; 
+    }
+}
+ 

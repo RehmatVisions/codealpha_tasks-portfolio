@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.dark-mode nav {
+  width: 100%;
+}
+
+nav {
+  font-family: "Poppins", sans-serif;
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  
+  /* Glassmorphism Effect */
+  background: rgba(255, 255, 255, 0.4); /* Slightly transparent white */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+}
+
+.logo h1 {
+  font-size: 2.1rem;
+  color: #6C63FF;
+  font-weight: 600;
+}
+
+#spanone {
+  color: red;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3vw;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  position: relative; 
+}
+
+.links a::after {
+  content: ''; 
+  position: absolute; 
+  bottom: 0; 
+  left: 0;  
+  width: 0;  
+  height: 2px;  
+  background-color: #6C63FF;  
+  transition: width 0.3s ease;  
+}
+
+.links a:hover::after {
+  width: 100%; 
+}
+
+.ham {
+  display: none;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Dark Mode Glassmorphism */
+.dark-mode nav {
+  background: rgba(0, 0, 0, 0.4) !important; /* Dark semi-transparent */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .links a {
+  color: #fff;   
+}
+
+.dark-mode .ham {
+  color: #fff;  
+}
+
+button {
+  padding: 5px 5px;
+  border: none;
+  font-size: 25px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Mobile Responsiveness */
+@media only screen and (max-width: 768px) {
+  nav {
+    align-items: center;
+    height: 8vh;
+  }
+
+  .logo h1 {
+    font-size: 1.4rem;
+  }
+
+  #ham-icon {
+    font-size: 1.4rem;
+    font-weight: bolder;
+  }
+
+  .links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: flex-start;
+  }
+
+  .links a {
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+  }
+
+  .dark-mode .links {
+    background-color: rgba(0, 0, 0, 0.9); /* Dark glass for mobile */
+    color: white;
+  }
+
+  .ham {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+
+  .show-links {
+    display: flex !important;
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95); /* More opaque for mobile */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+  }
+
+  .anchor {
+    margin-left: 43%;
+  }
+}

@@ -1,0 +1,550 @@
+*{ scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+     color: white;
+     
+}
+ 
+nav{
+     
+  height: 100px ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+   
+}
+.logo-img{
+    height: auto;
+    width:  19%;
+   
+}
+.links{
+   font-size: 18px;
+   margin-right: 100px;
+   width: 100%;
+
+   
+}
+ .links a{
+    margin: 0px 20px;
+    text-decoration: none;
+   font-size: 20px;
+   font-weight: lighter;
+   color: rgb(94, 91, 91);
+ }
+ .links a:hover{
+    color: #f65129;
+
+ }
+ .links a:active{
+   color:rgb(13, 110, 253);
+    
+ }
+.logo-content{
+    display: flex;
+
+     
+}
+.logo-hp{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.logo-content{
+    margin-left: 35px;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    margin: 0px 40px;
+    font-size: 18px;
+    
+}
+.btns a{
+    text-decoration: none;
+    font-size: 18px;
+    color:  rgb(94, 91, 91) ;
+    font-weight: lighter;
+}
+.btn1{
+    margin: 0px 20px;
+    padding: 10px 30px;
+    border-radius: 25px 25px;
+    background: #f65129;
+    color: white;
+    border: none;
+    font-size: 18px;
+    transition: 0.2s ease-in-out ;
+}
+.btn1:hover{
+background-color: #0d6efd;
+} 
+.logo-h{
+    color:blue;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+.logo-p{
+    color: orangered;
+    font-weight: bold;
+}
+
+
+
+
+
+/* heriossection */
+.hero-sec{
+    background:   #4534d8 url(./close-up-young-business-team-working.jpg);
+   background-blend-mode:overlay;
+  
+     background-size:cover;
+     background-repeat: no-repeat;
+     background-position: bottom;
+     
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hero-sec h1{
+    font-size: 50px ;
+    font-weight: 50px;
+}
+.hero-sec button{
+    padding: 10px 30px;
+    background-color: white;
+    color: grey;
+    border: none;
+     font-size: 20px;
+    border-radius: 25px;
+    margin: 20px 0px;
+
+}
+ 
+
+.ab{
+    color: grey;
+}
+.ab:hover{
+    color: #0d6efd;
+}
+.slash{
+    color: grey;
+}
+.hom{
+    color: grey;
+
+}
+.hom:hover{
+    color: #f65129;
+
+}
+
+
+/* another-sec  */
+
+.another-sec{
+    margin: 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left-side{
+    
+    height: 600px;
+    width: 600px;
+}
+.left-side img{
+    height: 550px;
+    width: 550px;
+    
+}
+ 
+.right-side{
+ 
+    height: 500px;
+    width: 500px;
+}
+.one{
+    background-color: #0d6dfd09;
+    padding: 20px 40px;
+    margin: 15px 20px;
+    border-radius: 35px;
+}
+.one:hover{
+    box-shadow: 0px 0px 20px #0d6dfd4f;
+}
+.icn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icn i{
+    font-size: 40px;
+    margin-right: 10px;
+    color: #4534d8;
+}
+.icn h4{
+    color:#0d6efd;
+}
+.one p{
+    color: grey;
+    margin-left: 40px;
+}
+
+/* sighn-sec  */
+.signin{
+    margin: 50px 0px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+    
+}
+.all{
+    
+    width: 70%;
+}
+.sign-sec h1{
+    color: black;
+    font-size: 40px;
+}
+.sign-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.name{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.mess1{
+    padding-right: 90px;
+
+}
+.name h2{
+    color: black;
+    font-size: 17px;
+    margin: 10px 30px;
+}
+.input-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big-bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.mess{
+    margin-top: 10px;
+    margin-left: 400px;
+    font-size: 16px;
+     color: black;
+}
+.input-b input{
+    margin: 10px 20px;
+    padding: 15px 40px;
+    border: none;
+    border-radius:25px ;
+    color: black;
+    background-color: #0d6dfd1d;
+    
+
+}
+.big-bt input{
+    padding: 35px 160px;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: #0d6dfd1d;
+}
+.send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.send button{
+padding:20px 90px;
+background-color:#5d52ba;
+font-size: 18px;
+border-radius: 25px;
+border: none;
+transition: 0.2s ease-in-out;
+margin:30px;
+margin-left: 220px;
+}
+.send button:hover{
+    background-color: rgb(50, 236, 236);
+}
+.big-bt input{
+    border: 2px solid transparent;
+}
+.input-b input{
+    border: 2px solid transparent;
+}
+.big-bt input:hover{
+    border: 2px solid #4534d8;
+}
+.input-b input:hover{
+    border: 2px solid #4534d8;
+}
+
+
+
+
+/* 10th */
+
+ 
+.ten{
+    margin: 0px 0px;
+    width: 100%;
+    height: 350px;
+    background:   #f65129 url(./millennial-group-young-businesspeople.jpg);
+    background-blend-mode:overlay;
+    
+   
+  }
+  .ten h1{
+    
+     padding: 25px 50px;
+    /* text-align: center;  */
+    font-size: 35px;
+    margin-top: 20px;
+  }
+  .ten p{
+    margin-top: 25px;
+     padding: 15px 50px;
+    /* text-align: center; */
+    font-size: 20px;
+  }
+  .ten-b{
+    padding: 12px 30px;
+    border: 2px solid white;
+    background-color: #f6522976;
+    color: white;
+    margin: 20px 10px;
+    border-radius: 25px;
+    transition: 0.2s ease-in-out;
+  }
+  .ten-b:hover{
+    background-color: #0dcaf0;
+  }
+  .btnsss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btnsss h4{
+    margin-left: 20px;
+
+  }
+
+  .btnsss h4{
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    color:black;
+
+}
+.btnsss h4:after{
+   content: '';
+   display: block;
+   height: 4px;
+   width: 100%;
+   background-color:#f65129;
+   transform: scale(0);
+   transform-origin: left;
+   transition: transform 0.3s ease-in-out;
+
+}
+.btnsss h4:hover::after{
+   transform: scale(1);
+}
+
+
+  /* 11 sec  */
+
+   /* eleven section  */
+   .eleven-sec{
+    margin: 80px 0px;
+     
+  }
+  .logos-img{
+    height: 80px;
+    width: 80px;
+
+  }
+  .logos-hp{
+    margin-left: 10px;
+     
+  }
+  .logos-h{
+   color: #f65129;
+  }
+  .logos-p{
+   color: black;
+  }
+  .eleven-logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .ele-icons p{
+    color:grey;
+    margin: 10px 0px;
+
+
+  }
+  .companies i{
+    color: black;
+    margin: 10px 0px;
+  }
+  .companies h1{
+    color: black;
+    margin: 10px 0px;
+
+  }
+  .companies p{
+    color: grey;
+    margin: 10px 0px;
+  }
+  .Resource h1{
+    color: black;
+     margin-bottom: 24px;
+
+  }
+  .Resource p{
+    color: grey;
+    margin: 10px 0px;
+
+  }
+  .newsteller h1{
+    color: black;
+   padding-top:130px;
+
+  }
+  .news-box{
+   margin-top: 30px;
+    height: 200px;
+    width: 300px;
+    background-color:rgba(204, 204, 248, 0.784);
+    border-radius:15px ;
+  }
+  .news-box h1{
+   padding: 10px;
+   margin: 10px;
+  
+
+  }
+  .news-box input{
+   padding: 15px;
+   border: none;
+   border-radius:25px ;
+  }
+  .send {
+   border-radius: 100px;
+   background-color: #5d52ba;
+   height: 40px ;
+   width: 40px;
+   margin-left:200px ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  .eleven-sect{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+  }
+   .flex{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+   }
+
+
+   /* footre  */
+
+
+   
+/* foooooootttteeeer */
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: #5d52ba;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .words{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+ }
+ .words2{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+ }
+ .symbols{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+ }
+ .main{
+    height: 40px;
+    width: 40px;
+    background-color: #7f73eb;
+    margin: 0px 5px;
+    font-size: 15px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+ }
+ .main:hover{
+     font-size:25px ;
+     font-weight: 20px;
+ }
+ .arrow {
+     
+    height:100px;
+    width: 80px;
+    background-color: #0dcaf0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .arrow i{
+    font-size: 25px;
+
+ }
+
+ /* <!-- shukarallhamdullillah --> */
+
+
+

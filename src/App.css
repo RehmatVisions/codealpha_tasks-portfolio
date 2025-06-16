@@ -1,0 +1,15 @@
+ *{
+  margin: 0;
+  padding: 0;
+    scroll-behavior: smooth;
+ }
+ marquee{
+ display: none;
+ }
+ .dark .complete{
+   background-color: #333;
+ }
+ .dark-mode body{
+  background-color: #333;
+ }
+ 

@@ -1,0 +1,135 @@
+ /* 🌟 Reset & Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+}
+
+/* 📌 Main Container */
+.container {
+    width: 450px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border: 2px solid cyan;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect on Container */
+.container:hover {
+    box-shadow: 0 10px 40px rgba(0, 255, 255, 0.5);
+    transform: scale(1.02);
+}
+
+/* 📝 Title */
+h2 {
+    color: cyan;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* 📥 Input Box */
+.inputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#inp {
+    padding: 12px;
+    width: 70%;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    background: #24243e;
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0, 255, 255, 0.5);
+}
+
+/* Focus Effect */
+#inp:focus {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.8);
+}
+
+/* 🎯 Add Button */
+button {
+    padding: 12px 15px;
+    background: cyan;
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 255, 255, 0.5);
+}
+
+/* Button Hover Effect */
+button:hover {
+    transform: scale(1.1);
+    background: rgb(0, 255, 180);
+    box-shadow: 0px 4px 15px rgba(0, 255, 255, 0.8);
+}
+
+/* 📜 Task List */
+.text {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 12px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: cyan;
+    font-size: 18px;
+    box-shadow: 0px 3px 15px rgba(0, 255, 255, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+/* List Hover Effect */
+ul:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transform: scale(1.02);
+}
+
+/* ❌ Delete Icon */
+i {
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Delete Hover Effect */
+i:hover {
+    transform: scale(1.3);
+    color: cyan;
+}
+
+/* Delete Task Effect */
+.deleted {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.3s ease-in-out;
+}

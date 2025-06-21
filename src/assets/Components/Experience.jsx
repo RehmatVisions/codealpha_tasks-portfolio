@@ -3,7 +3,7 @@ import '../Style/Experince.css'; // Make sure the file name matches (Experience.
 import ins from '../Image/Leads.png'
 const Experience = ({ name, role ,image}) => {
   return (
-    <div className="e-card playing">
+    <div  data-aos="zoom-in-down" className="e-card playing">
       <div className="image"></div>
 
       <div className="wave"></div>
@@ -11,7 +11,7 @@ const Experience = ({ name, role ,image}) => {
       <div className="wave"></div>
 
       <div className="infotop">
-        <img className='ex-img' src={image} alt="" />
+        <img className='ex-img' data-aos="fade-right" src={image} alt="" />
         {/* <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -24,7 +24,7 @@ const Experience = ({ name, role ,image}) => {
           />
         </svg> */}
         <br />
-        <span className="role">{role}</span>
+        <span  data-aos="fade-up" className="role">{role}</span>
         <br />
         <div className="name">{name}</div>
       </div>

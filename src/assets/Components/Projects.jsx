@@ -5,6 +5,7 @@ import spotify_img from '../Image/proImage.jpg'
 import eduisty_img from '../Image/proImagestwo.jpg'
 import gotto_img from '../Image/proImage3.jpg'
 import labs_img from '../Image/proImagesfive.jpg'
+import weather_img from '../Image/weather.png'
 
 const Projects = () => {
  
@@ -27,7 +28,8 @@ const Projects = () => {
   {/* <ProCards title="KOS Website Clone - HTML & CSS" desc="A simple and responsive clone of the KOS website built using HTML and CSS. Replicates key sections like navigation, services, and footer — without JavaScript." btn="View"link="t-projects/KOS/index.html" /> */}
  <ProCards  image={labs_img} title="Streamlabs Website Clone" desc="A fully responsive Streamlabs-inspired ReactJS project with modern UI, smooth animations, and dynamic component structure." btn="View" link="https://sprightly-kashata-a0ade8.netlify.app/" />
   {/* <ProCards title="Starbucks Clone - Coffee,Tea&More" desc="A simple,Starbucks clone built with HTML, CSS, and JavaScript, featuring animations, menu, offers, and contact info." btn="View" link="t-projects/starbucks/index.html" /> */}
- 
+  <ProCards  image={weather_img} title="Weather App – React & Tailwind CSS " desc="A sleek and responsive weather app built with React and Tailwind CSS that fetches real-time weather data using WeatherAPI." btn="View" link="https://rehmatvisions.github.io/weather_app" />
+
   {/* <ProCards title= "Javascript Projects" desc="Interactive WebApps–Calculator,To-Do,Tic-Tac-Toe&Color Changer " btn="  elsewhere."/> */}
   {/* <ProCards title="Nike and IceCream projects in ReactJS" desc="Created a simple Nike landing page,and various React projects using React Router DOM and props,including an ice cream project showcasing prop usage." btn="elsewhere"/> */}
 

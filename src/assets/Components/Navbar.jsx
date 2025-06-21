@@ -40,8 +40,11 @@ const Navbar = () => {
       </div>
       <div className={`links ${isMenuOpen ? "show-links" : ""}`}>
         <Link className="anchor" onClick={()=>{setIsMenuOpen(false)}} to= "/">Home </Link>
-        <Link className="anchor" onClick={()=>{setIsMenuOpen(false)}}  to= "/MainCards">Skills</Link>
+ 
         <Link className="anchor" onClick={()=>{setIsMenuOpen(false)}}  to= "/Projects">Projects</Link>
+                <Link className="anchor" onClick={()=>{setIsMenuOpen(false)}}  to= "/MainCards">Skills</Link>
+               <Link className="anchor" onClick={()=>{setIsMenuOpen(false)}}  to= "/ExperienceParent">Experience</Link>
+
         <Link className="anchor" onClick={()=>{setIsMenuOpen(false)}}  to= "/Contacts">Contacts</Link>
       </div>
       <button className="icons" onClick={toggleDarkMode}>

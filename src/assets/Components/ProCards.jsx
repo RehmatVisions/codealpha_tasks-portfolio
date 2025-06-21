@@ -6,12 +6,12 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const ProCards = (props) => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // animation speed
-      once: false,     
-    });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 1000, // animation speed
+  //     once: false,     
+  //   });
+  // }, []);
   
   return (
     <>
@@ -32,11 +32,11 @@ const ProCards = (props) => {
       </div> */}
       <a href={props.link} className='PC' data-aos="fade-up"
      data-aos-anchor-placement="center-bottom">
-        
+         <img className='proimg' src={props.image} alt="" />
             <h1>{props.title}</h1>
          <p>{props.desc}</p>
      
-<button  className="view">
+<button  className=" view">
   <span >     <a  href={props.link} target="_blank" rel="noopener noreferrer">
         {props.btn}
       </a>

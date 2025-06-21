@@ -32,17 +32,16 @@
     padding: 1rem;
 }
  
- body{
+ /* body{
    background-color: #333;
- }
+ } */
    
 
-  .dark-mode .content{
-    background-color: #333;
-  }
+ 
 
   .dark-mode .content{
-    height: 130vh;
+    height: 150vh;
+    
    
     margin-bottom: 170px;
    

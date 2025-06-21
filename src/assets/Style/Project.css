@@ -68,7 +68,9 @@ marquee{
     width: 100%;
     overflow: hidden;
   }
- 
+ #pro{
+  font-size: 2rem;
+ }
   
   /* Responsive tweaks */
   @media (max-width: 768px) {

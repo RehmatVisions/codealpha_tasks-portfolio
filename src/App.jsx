@@ -8,7 +8,9 @@ import Projects from './assets/Components/Projects'
 import Footer from './assets/Components/Footer'
 import Contacts from './assets/Components/Contacts'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
+// import Experience from './assets/Components/Experience'
+import ExperienceParent from './assets/Components/ExperienceParent'
+ 
 
 
 
@@ -35,15 +37,20 @@ const App = () => {
           element={
             <>
               <HereoSection />
-              <MainCards />
+             
+           
               <Projects />
-              <Contacts />
+                <MainCards />
+              <ExperienceParent/>
+               
+               <Contacts />
             </>
           }
         />
         <Route path="/MainCards" element={<MainCards />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Contacts" element={<Contacts />} />
+        <Route path='/ExperienceParent' element={<ExperienceParent/>}/>
       </Routes>
     <Footer />
    </div>

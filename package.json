@@ -5,12 +5,11 @@
   "type": "module",
   "homepage": "https://rehmatvisions.github.io/REUPDATE_PORTFOLIO",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-     "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",

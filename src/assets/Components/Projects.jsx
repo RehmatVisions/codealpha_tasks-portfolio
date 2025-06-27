@@ -6,7 +6,7 @@ import eduisty_img from '../Image/proImagestwo.jpg'
 import gotto_img from '../Image/proImage3.jpg'
 import labs_img from '../Image/proImagesfive.jpg'
 import weather_img from '../Image/weather.png'
-
+import koadimg from '../Image/Koad.png'
 const Projects = () => {
  
   return (
@@ -23,16 +23,13 @@ const Projects = () => {
 " btn="view"  link="https://comfy-cendol-b1f477.netlify.app/" />
     <ProCards image={gotto_img} title="Gotto Website" desc="A fully responsive bussiness Platform Built in React. Styled with passion. Delivered as Gotto." btn="View" link="https://profound-bavarois-7ff36a.netlify.app/" />
 
-  {/* <ProCards title="Gotto Website Clone using HTML and CSS" desc="A complete e-commerce website clone made with pure HTML and CSS, including header, banners, categories, and product sections." btn="View" link="/t-projects/gotto/index.html"/> */}
-  {/* <ProCards title="Construct website using HTML and CSS" desc= "A clean, Construct website clone built with pure HTML and CSS, featuring homepage layout, services, galleries, and no JavaScript." btn="View"  link="t-projects/construct/index.html"/> */}
-  {/* <ProCards title="KOS Website Clone - HTML & CSS" desc="A simple and responsive clone of the KOS website built using HTML and CSS. Replicates key sections like navigation, services, and footer — without JavaScript." btn="View"link="t-projects/KOS/index.html" /> */}
+ 
  <ProCards  image={labs_img} title="Streamlabs Website Clone" desc="A fully responsive Streamlabs-inspired ReactJS project with modern UI, smooth animations, and dynamic component structure." btn="View" link="https://sprightly-kashata-a0ade8.netlify.app/" />
   {/* <ProCards title="Starbucks Clone - Coffee,Tea&More" desc="A simple,Starbucks clone built with HTML, CSS, and JavaScript, featuring animations, menu, offers, and contact info." btn="View" link="t-projects/starbucks/index.html" /> */}
   <ProCards  image={weather_img} title="Weather App – React & Tailwind CSS " desc="A sleek and responsive weather app built with React and Tailwind CSS that fetches real-time weather data using WeatherAPI." btn="View" link="https://rehmatvisions.github.io/weather_app" />
+  <ProCards  image={koadimg} title=" Koad Web – Fast Food Ordering Made Easy" desc=" A responsive React.js fast food website with modern UI, fast performance, and smooth UX — designed for real-world food ordering apps..." btn="View" link="https://superlative-quokka-75b99c.netlify.app/" />
 
-  {/* <ProCards title= "Javascript Projects" desc="Interactive WebApps–Calculator,To-Do,Tic-Tac-Toe&Color Changer " btn="  elsewhere."/> */}
-  {/* <ProCards title="Nike and IceCream projects in ReactJS" desc="Created a simple Nike landing page,and various React projects using React Router DOM and props,including an ice cream project showcasing prop usage." btn="elsewhere"/> */}
-
+ 
   <marquee behavior="" direction="">Made by Rehmat ali</marquee>
   </div>
  </div>

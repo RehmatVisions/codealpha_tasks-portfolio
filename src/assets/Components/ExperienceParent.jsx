@@ -21,11 +21,7 @@ const ExperienceParent = () => {
   image={leadsLogo}
 />
 
-      <Experience
-        name="Frontend Development | Certification in Progress"
-        role="  Intern — CodeAlpha (Remote) "
-        image={codeAlphaLogo}
-      />
+      
      </div>
  
     
